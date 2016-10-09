@@ -5,6 +5,16 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.DependencyInjection", "Blog.DependencyInjection\Blog.DependencyInjection.csproj", "{83341449-BA66-4E0F-BD0D-9F472950A3D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.ChartExtensions", "Blog.ChartExtensions\Blog.ChartExtensions.csproj", "{01766C95-206A-4269-ACB5-A6FAE7B84554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F72E4B5C-C678-4790-AE27-393714217B19}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,10 @@ Global
 		{83341449-BA66-4E0F-BD0D-9F472950A3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83341449-BA66-4E0F-BD0D-9F472950A3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83341449-BA66-4E0F-BD0D-9F472950A3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01766C95-206A-4269-ACB5-A6FAE7B84554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01766C95-206A-4269-ACB5-A6FAE7B84554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01766C95-206A-4269-ACB5-A6FAE7B84554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01766C95-206A-4269-ACB5-A6FAE7B84554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
